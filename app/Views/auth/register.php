@@ -1,13 +1,3 @@
-<h2>Register</h2>
-<form action="<?= site_url('register/post') ?>" method="post">
-    <?= csrf_field() ?>
-    <input type="text" name="username" placeholder="Username" required><br>
-    <input type="email" name="email" placeholder="Email" required><br>
-    <input type="password" name="password" placeholder="Password" required><br>
-    <button type="submit">Register</button>
-</form>
-<a href="<?= site_url('login') ?>">Back to login</a>
-
 
 <!doctype html>
 <html lang="en">

@@ -26,7 +26,7 @@
         <input type="text" name="ProfilePicture" class="form-control">
     </div>
     <button type="submit" class="btn btn-success">Save</button>
-    <a href="<?= site_url('users/post') ?>" class="btn btn-secondary">Cancel</a>
+    <a href="<?= site_url('users') ?>" class="btn btn-secondary">Cancel</a>
 </form>
 
 <?= $this->endSection() ?>
