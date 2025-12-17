@@ -48,7 +48,7 @@ class PostController extends BaseController
             'users' => $users
         ]); 
 
-        //menghitung total like
+        // Menghitung total like
         foreach ($posts as $post) {
             $post['likes'] = $likeModel->where('post_id', $post['PostID'])->countAllResults();
         }
@@ -64,7 +64,7 @@ class PostController extends BaseController
             }
         }
 
-    // 3. Kirim data ke view
+    // Kirim data ke view
     return view('post_index', [
         'posts' => $posts
     ]);
