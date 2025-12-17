@@ -24,6 +24,8 @@ $routes->group('', ['filter' => 'auth'], static function ($routes) {
     $routes->post('posts/update/(:num)', 'PostController::update/$1');
     $routes->get('posts/delete/(:num)', 'PostController::delete/$1');
     $routes->get('posts/view/(:num)', 'PostController::view/$1');
+    // like
+    $routes->post('like/toggle/(:num)', 'LikeController::toggle/$1');
 
     $routes->get('users', 'UserController::index');
     $routes->get('users/create', 'UserController::create');
