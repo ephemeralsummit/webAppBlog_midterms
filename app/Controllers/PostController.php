@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\PostModel;
 use App\Models\UserModel;
 use App\Controllers\BaseController;
+use App\Models\LikeModel;
 
 class PostController extends BaseController
 {
@@ -13,10 +14,13 @@ class PostController extends BaseController
     {
         $postModel = new PostModel();
         $userModel = new UserModel();
+        $likeModel = new LikeModel();
 
         // Get filter/search from query parameters
         $search = $this->request->getGet('search');
         $userID = $this->request->getGet('user');
+
+        $post = $postModel->findAll();
 
         // Base query
         $builder = $postModel->select('Post.*, User.Username')
@@ -42,8 +46,30 @@ class PostController extends BaseController
             'search' => $search,
             'userID' => $userID,
             'users' => $users
-        ]);
-    }
+        ]); 
+
+        // Menghitung total like
+        foreach ($posts as $post) {
+            $post['likes'] = $likeModel->where('post_id', $post['PostID'])->countAllResults();
+        }
+        $p['is_liked'] = false; // default
+        if ($userId) {
+            $check = $likeModel->where([
+                'post_id' => $p['id'], 
+                'user_id' => $userId
+            ])->first();
+            
+            if ($check) {
+                $p['is_liked'] = true;
+            }
+        }
+
+    // Kirim data ke view
+    return view('post_index', [
+        'posts' => $posts
+    ]);
+}
+    
 
 
 
@@ -107,6 +133,7 @@ class PostController extends BaseController
     public function update($id)
     {
         $postModel = new PostModel();
+        
         helper('form');
 
 

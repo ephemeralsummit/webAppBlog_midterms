@@ -1,0 +1,789 @@
+CRITICAL - 2025-12-17 09:22:57 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "MySQL"
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQL')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PostController.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:23:10 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "mysql"
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('mysql')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PostController.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:23:13 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "mysql"
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('mysql')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PostController.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:23:15 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "mysql"
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('mysql')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PostController.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:23:36 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "Mysql"
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('Mysql')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PostController.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:24:11 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "MySQL"
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQL')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PostController.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:24:49 --> mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:24:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:24:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:24:49 --> [Caused by] mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:26:54 --> mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:26:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:54 --> [Caused by] mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:26:55 --> mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:26:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:55 --> [Caused by] mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:26:57 --> mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:26:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:57 --> [Caused by] mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:26:58 --> mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:26:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:26:58 --> [Caused by] mysqli_sql_exception: Table 'db_my_blog.post' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:27:12 --> mysqli_sql_exception: Table 'db_my_blog.user' doesn't exist in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:27:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.user' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:27:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:27:12 --> [Caused by] mysqli_sql_exception: Table 'db_my_blog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:27:14 --> mysqli_sql_exception: Table 'db_my_blog.user' doesn't exist in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:27:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.user' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:27:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_my_blog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:27:14 --> [Caused by] mysqli_sql_exception: Table 'db_my_blog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+ERROR - 2025-12-17 09:27:29 --> mysqli_sql_exception: Unknown column 'User.Username' in 'field list' in C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*...', 0)
+#1 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*...')
+#2 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*...')
+#3 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*...', Array, false)
+#4 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon2\www\webAppBlog_midterms\app\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PostController->index()
+#8 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon2\www\webAppBlog_midterms\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon2\www\webAppBlog_midterms\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon2\\www...')
+#14 {main}
+CRITICAL - 2025-12-17 09:27:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'User.Username' in 'field list'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:27:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'User.Username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+CRITICAL - 2025-12-17 09:27:29 --> [Caused by] mysqli_sql_exception: Unknown column 'User.Username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `Post`.*, `User`.`Username`
+FROM `Post`
+LEFT JOIN `User` ON `User`.`UserID` = `Post`.`UserID`
+ORDER BY `Post`.`PublicationDate` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PostController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon2\\www\\webAppBlog_midterms\\public\\index.php')
+DEBUG - 2025-12-17 09:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 09:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
