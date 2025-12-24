@@ -22,6 +22,10 @@
         <input type="text" name="Tags" class="form-control" value="<?= esc($post['Tags']) ?>">
     </div>
     <button type="submit" class="btn btn-primary">Update</button>
+    <a href="<?= site_url('posts/delete/'.$post['PostID']) ?>" 
+        onclick="return confirm('Are you sure you want to delete this post?')"
+        class="btn btn-danger">Delete
+    </a>
     <a href="<?= site_url('posts') ?>" class="btn btn-secondary">Cancel</a>
 </form>
 
