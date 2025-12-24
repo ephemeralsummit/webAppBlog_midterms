@@ -181,7 +181,7 @@
                 </li>
 
                 <?php else: ?>
-                <li class="nav-item">
+                <li class="nav-item mt-auto">
                     <a href="<?= site_url('login') ?>" class="nav-link py-2 rounded-0 text-black">
                         <i class="fa fa-hand-o-right"></i>
                         <span>login</span>
